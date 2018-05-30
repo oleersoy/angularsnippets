@@ -10,11 +10,7 @@ mvn archetype:generate -DgroupId=com.fireflysemantics -DartifactId=start -Darche
     mvn clean install
     
 ``` 
-mvn archetype:generate \
- -DarchetypeGroupId=com.tbp \
- -DarchetypeArtifactId=java8-junit5-archetype \
- -DarchetypeVersion=1.0-SNAPSHOT  \
- -DgroupId=com.example       \
- -DartifactId=my-project      \
- -DinteractiveMode=false
- ```
+
+```
+mvn archetype:generate -DarchetypeGroupId=com.tbp -DarchetypeArtifactId=java8-junit5-archetype -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=com.example -DartifactId=my-project -DinteractiveMode=falsegit clone https://github.com/thiagoprocaci/java8-junit5-    
+``` 
