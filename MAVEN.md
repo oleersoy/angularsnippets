@@ -9,7 +9,7 @@ mvn archetype:generate -DgroupId=com.fireflysemantics -DartifactId=start -Darche
     cd java8-junit5-archetype
     mvn clean install
     
-``` console
+``` 
 mvn archetype:generate \
  -DarchetypeGroupId=com.tbp \
  -DarchetypeArtifactId=java8-junit5-archetype \
