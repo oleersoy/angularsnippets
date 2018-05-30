@@ -8,7 +8,8 @@ mvn archetype:generate -DgroupId=com.fireflysemantics -DartifactId=start -Darche
  git clone https://github.com/thiagoprocaci/java8-junit5-archetype.git
     cd java8-junit5-archetype
     mvn clean install
-```
+    
+``` console
 mvn archetype:generate \
  -DarchetypeGroupId=com.tbp \
  -DarchetypeArtifactId=java8-junit5-archetype \
