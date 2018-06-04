@@ -1,0 +1,1 @@
+Create a shortcut for `ts-node` by creating a `.bashrc` alias.  Go to the bottom of `~/.bashrc` and add `alias ts=`ts-node`.  Save and `source ~/.bashrc`.
