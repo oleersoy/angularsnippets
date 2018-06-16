@@ -1,8 +1,9 @@
 ## Minimal Typescript Project
-
+```
 mkdir ts && cd ts && tsc --init && npm init -y && npm i -S @types/node  
 touch add.ts
 touch index.ts
+```
 
 In `add.ts` put:
 
